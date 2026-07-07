@@ -8,10 +8,22 @@
 
 #                   PASSO  A PASSO 
 # 1- Entrar no sistema da empresa 
-#     Automatizar a entrada no windows para abrir o navegador
+#     AUTOMATIZAR A ENTRADA NO WINDOWS PARA ABRIR O NAVEGADOR
+# import pyautogui #Importamos a biblioteca pyautogui
+# import time
 
+# pyautogui.PAUSE = 1  #Seleciona o tempo de pausa para realizar as tarefas
+# link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 
-# 2- Login 
+# pyautogui.press("win")
+# pyautogui.write("chrome")
+# pyautogui.press("enter")
+
+# pyautogui.write(link)
+# pyautogui.press("enter")
+# time.sleep(3) 
+
+# 2- LOGIN 
 
 
 # 3- Abrir base de dados 
@@ -33,12 +45,12 @@ import pyautogui #Importamos a biblioteca pyautogui
 import time
 
 pyautogui.PAUSE = 1  #Seleciona o tempo de pausa para realizar as tarefas
-link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
+link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login" # Criamos a variável link
 
-pyautogui.press("win")
-pyautogui.write("chrome")
-pyautogui.press("enter")
+pyautogui.press("win") # Clica automaticamente na tecla windows
+pyautogui.write("chrome") # Na aba windows digita chrome
+pyautogui.press("enter") # Dá o enter no navegador chrome
 
-pyautogui.write(link)
-pyautogui.press("enter")
-time.sleep(3)  # Faz uma pausa maior para o site carregar para evitar sobrecarga
+pyautogui.write(link) # Escrevemos de forma automatica a variável criada no link
+pyautogui.press("enter") # Pressionamos para a busca do link no navegador
+time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
