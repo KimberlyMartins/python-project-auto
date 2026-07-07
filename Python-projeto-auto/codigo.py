@@ -76,3 +76,7 @@ pyautogui.press("enter") # Enter para click no botão de login
 time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
 
 #  pip install pandas openpyxl  # Instalamos a bibioteca pandas
+import pandas
+
+table = pandas.read_csv("produtos.csv")
+print(table)
