@@ -2,16 +2,27 @@
 
 #                   PASSO  A PASSO 
 # 1- Entrar no sistema da empresa 
+#     Automatizar a entrada no windows para abrir o navegador
+
+
 # 2- Login 
+
+
 # 3- Abrir base de dados 
+
+
 # 4- Cadastrar um produto
+
+
 # 5- Repetir passo 4 até o fim da lista de produtos
 
-#pip install pyautogui 
-import pyautogui
+# pip install pyautogui 
 
 # pyautogui.click   = Clica
 # pyautogui.write   = Escreve um texto
 # pyautogui.press   = Aperta uma tecla
 # pyautogui.hotkey  = Aperta um atalho (Hotkey)
 
+import pyautogui
+
+pyautogui.press("win")
