@@ -7,26 +7,32 @@
 # No python usamos aspas sejam simples ou duplas para digitar palavras
 
 #                   PASSO  A PASSO 
-# 1- Entrar no sistema da empresa 
-#     AUTOMATIZAR A ENTRADA NO WINDOWS PARA ABRIR O NAVEGADOR
+# 1- ENTRAR NO SISTEMA DA EMPRESA 
+# automatizar a entrada no windows para abrir o navegador
 # import pyautogui #Importamos a biblioteca pyautogui
-# import time
+# import time  # importamos tempo que já é padrão e não precisa baixar
 
 # pyautogui.PAUSE = 1  #Seleciona o tempo de pausa para realizar as tarefas
-# link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
+# link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login" # Criamos a variável link
 
-# pyautogui.press("win")
-# pyautogui.write("chrome")
-# pyautogui.press("enter")
+# pyautogui.press("win") # Clica automaticamente na tecla windows
+# pyautogui.write("chrome") # Na aba windows digita chrome
+# pyautogui.press("enter") # Dá o enter no navegador chrome
 
-# pyautogui.write(link)
-# pyautogui.press("enter")
-# time.sleep(3) 
+# pyautogui.write(link) # Escrevemos de forma automatica a variável criada no link
+# pyautogui.press("enter") # Pressionamos para a busca do link no navegador
+# time.sleep(2)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
 
 # 2- LOGIN 
+# pyautogui.click(x=595, y=417) #Acha a posição no arquivo auxiliar e seleciona onde é para clicar
+# pyautogui.write("pythonimpressionador@gmail.com") # Digita no campo selecionado
 
+# pyautogui.press("tab")  # Tab para pular para  a próxima seleção
+# pyautogui.write("essasenhaéinfinita") # Digita no campo selecionado
+# pyautogui.press("tab")  # Tab para pular para  a próxima seleção
+# pyautogui.press("enter") # Enter para click no botão de login
 
-# 3- Abrir base de dados 
+# 3- ABRIR  A BASE DE DADOS
 
 
 # 4- Cadastrar um produto
@@ -53,4 +59,12 @@ pyautogui.press("enter") # Dá o enter no navegador chrome
 
 pyautogui.write(link) # Escrevemos de forma automatica a variável criada no link
 pyautogui.press("enter") # Pressionamos para a busca do link no navegador
-time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
+time.sleep(2)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
+
+pyautogui.click(x=595, y=417) #Acha a posição no arquivo auxiliar e seleciona onde é para clicar
+pyautogui.write("pythonimpressionador@gmail.com") # Digita no campo selecionado
+
+pyautogui.press("tab")  # Tab para pular para  a próxima seleção
+pyautogui.write("essasenhaéinfinita") # Digita no campo selecionado
+pyautogui.press("tab")  # Tab para pular para  a próxima seleção
+pyautogui.press("enter") # Enter para click no botão de login
