@@ -2,7 +2,7 @@
 # O PyAutoGUI é uma biblioteca da linguagem Python que automatiza tarefas no computador. Ela funciona como um "robô", assumindo o controle do mouse e do teclado para clicar, mover, rolar e digitar, permitindo que você execute processos repetitivos exatamente como um humano faria.
 
 #                       TIME 
-#  A biblioteca time do Python é um módulo nativo usado para lidar com o tempo, medir a performance do código e pausar a execução do programa.
+#  A biblioteca time do Python é um módulo nativo usado para lidar com o tempo, medir a performance do código e pausar a execução do programa. O padrão é segundos.
 
 # No python usamos aspas sejam simples ou duplas para digitar palavras
 
@@ -31,6 +31,7 @@
 # pyautogui.write("essasenhaéinfinita") # Digita no campo selecionado
 # pyautogui.press("tab")  # Tab para pular para  a próxima seleção
 # pyautogui.press("enter") # Enter para click no botão de login
+#time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
 
 # 3- ABRIR  A BASE DE DADOS
 
