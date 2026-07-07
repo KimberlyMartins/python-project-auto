@@ -4,6 +4,9 @@
 #                       TIME 
 #  A biblioteca time do Python é um módulo nativo usado para lidar com o tempo, medir a performance do código e pausar a execução do programa. O padrão é segundos.
 
+#                      PANDAS
+# O Pandas é a principal biblioteca para análise de dados e utiliza o openpyxl como motor padrão nos bastidores para ler e escrever arquivos .xlsx no Python. Enquanto o Pandas foca na manipulação de grandes volumes de dados, o openpyxl é focado na formatação e estrutura do Excel.
+
 # No python usamos aspas sejam simples ou duplas para digitar palavras
 
 #                   PASSO  A PASSO 
@@ -71,3 +74,5 @@ pyautogui.press("tab")  # Tab para pular para  a próxima seleção
 pyautogui.press("enter") # Enter para click no botão de login
 
 time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
+
+#  pip install pandas openpyxl  # Instalamos a bibioteca pandas
