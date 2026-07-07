@@ -1,5 +1,7 @@
 #  O PyAutoGUI é uma biblioteca da linguagem Python que automatiza tarefas no computador. Ela funciona como um "robô", assumindo o controle do mouse e do teclado para clicar, mover, rolar e digitar, permitindo que você execute processos repetitivos exatamente como um humano faria.
 
+# No python usamos aspas sejam simples ou duplas para digitar palavras
+
 #                   PASSO  A PASSO 
 # 1- Entrar no sistema da empresa 
 #     Automatizar a entrada no windows para abrir o navegador
@@ -26,3 +28,5 @@
 import pyautogui
 
 pyautogui.press("win")
+pyautogui.write("chrome")
+pyautogui.press("enter")
