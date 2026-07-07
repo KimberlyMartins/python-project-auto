@@ -63,7 +63,7 @@ pyautogui.press("enter") # Dá o enter no navegador chrome
 
 pyautogui.write(link) # Escrevemos de forma automatica a variável criada no link
 pyautogui.press("enter") # Pressionamos para a busca do link no navegador
-time.sleep(2)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
+time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
 
 pyautogui.click(x=595, y=417) #Acha a posição no arquivo auxiliar e seleciona onde é para clicar
 pyautogui.write("pythonimpressionador@gmail.com") # Digita no campo selecionado
@@ -79,4 +79,3 @@ time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobre
 import pandas
 
 table = pandas.read_csv("produtos.csv")
-print(table)
