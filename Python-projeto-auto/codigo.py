@@ -68,3 +68,5 @@ pyautogui.press("tab")  # Tab para pular para  a próxima seleção
 pyautogui.write("essasenhaéinfinita") # Digita no campo selecionado
 pyautogui.press("tab")  # Tab para pular para  a próxima seleção
 pyautogui.press("enter") # Enter para click no botão de login
+
+time.sleep(3)  # Chamamos o time.sleep para fazer uma pausa maior evitando sobrecarga no site
